@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f0f0f0"/>
+  
+  <!-- Python Logo -->
+  <g transform="translate(180, 50) scale(0.7)">
+    <path d="M54.918,0h40.164v194.164c-20.523,3.88-35.931,5.439-52.304,5.439c-49.182,0-74.49-22.225-74.49-64.833c0-41.225,27.415-68.093,69.926-68.093c6.582,0,11.6,0.528,16.704,2.116V0z M54.918,105.987c-4.458-1.587-8.171-2.116-12.894-2.116c-19.461,0-30.709,12.017-30.709,33.183c0,20.638,10.571,32.122,30.181,32.122c4.216,0,7.664-0.264,13.422-1.055V105.987z" fill="#3776AB"/>
+    <path d="M144.818,62.677v103.052c0,35.675-2.641,52.907-10.571,67.696c-7.401,14.26-17.17,23.451-37.401,33.448l-42.385-20.109c20.23-9.467,30.05-17.698,36.367-30.449c6.582-13.015,8.699-28.086,8.699-67.433V62.677H144.818z M99.527,0h45.291v41.751H99.527V0z" fill="#FFC331"/>
+  </g>
+  
+  <!-- Installation Steps -->
+  <g transform="translate(20, 180)">
+    <rect width="70" height="30" rx="5" fill="#3776AB"/>
+    <text x="35" y="20" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Install</text>
+  </g>
+  
+  <g transform="translate(120, 180)">
+    <rect width="70" height="30" rx="5" fill="#3776AB"/>
+    <text x="35" y="20" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Configure</text>
+  </g>
+  
+  <g transform="translate(220, 180)">
+    <rect width="70" height="30" rx="5" fill="#3776AB"/>
+    <text x="35" y="20" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Test</text>
+  </g>
+  
+  <g transform="translate(320, 180)">
+    <rect width="70" height="30" rx="5" fill="#3776AB"/>
+    <text x="35" y="20" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Run</text>
+  </g>
+  
+  <!-- Arrows -->
+  <g fill="none" stroke="#666" stroke-width="2">
+    <path d="M95,195 L115,195"/>
+    <path d="M195,195 L215,195"/>
+    <path d="M295,195 L315,195"/>
+  </g>
+  
+  <!-- Terminal -->
+  <g transform="translate(100, 230)">
+    <rect width="200" height="50" rx="5" fill="#333"/>
+    <text x="10" y="20" font-family="Courier" font-size="12" fill="#0f0">$ python --version</text>
+    <text x="10" y="40" font-family="Courier" font-size="12" fill="#0f0">Python 3.9.5</text>
+  </g>
+</svg>
