@@ -1,6 +1,6 @@
 # Python Installation Guide
 
-<img src="./assets/python-installation-guide.png" alt="Python Installation Guide" width="400px">
+<img src="./assets/python-installation-svg.svg" alt="Python Installation Guide" width="400px">
 ## 1. Install Python using Homebrew
 
 ```bash
