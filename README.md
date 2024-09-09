@@ -31,27 +31,7 @@ pip3 install jupyter
 
 This installs Jupyter globally, allowing you to use it across your system.
 
-## 4. Test the installation
-
-To test the Python installation:
-
-1. Open Visual Studio Code (VSCode) or your preferred code editor.
-2. Create a new file named `index.py`.
-3. Add the following code:
-
-   ```python
-   print("Hello Python")
-   ```
-
-4. Save the file and run it in the terminal:
-
-   ```bash
-   python3 index.py
-   ```
-
-You should see "Hello Python" printed in the terminal.
-
-## 5. Install VSCode extensions
+## 4. Install VSCode extensions
 
 ### Pylance
 
@@ -71,6 +51,26 @@ Pylance provides enhanced language support for Python, including:
 1. In the Extensions view, search for "Jupyter" and install it.
 
 The Jupyter extension allows you to create and run Jupyter notebooks directly in VSCode.
+
+## 4. Test the installation
+
+To test the Python installation:
+
+1. Open Visual Studio Code (VSCode) or your preferred code editor.
+2. Create a new file named `index.py`.
+3. Add the following code:
+
+   ```python
+   print("Hello Python")
+   ```
+
+4. Save the file and run it in the terminal:
+
+   ```bash
+   python3 index.py
+   ```
+
+You should see "Hello Python" printed in the terminal.
 
 ## 6. Understanding Jupyter Notebooks
 
@@ -116,6 +116,10 @@ When working with Jupyter notebooks, it's crucial to select the correct kernel, 
 4. If you don't see your `venv` environment, you may need to restart VSCode or reload the window.
 
 Selecting the correct kernel ensures that your notebook uses the Python interpreter and packages from your virtual environment, maintaining consistency with your project setup.
+
+**NOTE**: When you first try to run code inside a Jupyter block or when you try to choose the kernel, you will most likely receive a popup saying that you must install `ipykernel`.
+
+Choose `Install`
 
 ## Additional Notes
 
