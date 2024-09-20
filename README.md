@@ -91,7 +91,7 @@ Jupyter notebooks are widely used in data science, scientific computing, and edu
 
 ## 8. Set up a virtual environment
 
-For Jupyter notebooks, it's recommended to use a virtual environment:
+For Python projects, it's recommended to use a virtual environment. This environment controls any packages you install into the workspace:
 
 ```bash
 python3 -m venv venv
@@ -99,6 +99,12 @@ source venv/bin/activate
 ```
 
 This creates a virtual environment named `venv` and activates it.
+
+If you need to exit the virtual environment, you can do so by running:
+
+```bash
+deactivate
+```
 
 ## 9. Working with Jupyter Notebooks
 
