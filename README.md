@@ -125,7 +125,7 @@ When working with Jupyter notebooks, it's crucial to select the correct kernel, 
 
 After you select the kernel, you should see something like this:
 
-<img src="./assets/python-chosen.png" alt="Python Chosen Kernel" width="400px">
+<img src="./assets/python-chosen.png" alt="Python Chosen Kernel" width="400px height=200px">
 4. If you don't see your `venv` environment, you may need to restart VSCode or reload the window.
 
 Selecting the correct kernel ensures that your notebook uses the Python interpreter and packages from your virtual environment, maintaining consistency with your project setup.
