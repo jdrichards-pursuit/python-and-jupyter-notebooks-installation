@@ -118,10 +118,12 @@ When working with Jupyter notebooks, it's crucial to select the correct kernel, 
 
 1. Open your Jupyter notebook in VSCode.
 2. Look for the "Select Kernel" button in the top right corner of the notebook.
-   <img src="./assets/python-environment.png" alt="Python Environment" width="200px">
+   <img src="./assets/python-environ.png" alt="Python Environment" width="200px">
 3. Click on it and choose the kernel that corresponds to your `venv` environment. It should be listed as something like "Python 3.x.x ('venv': venv)".
 
-<img src="./assets/python-chosen-kernel.png" alt="Python Chosen Kernel" width="200px">
+<img src="./assets/python-recommended.png" alt="Python Recommended" width="200px">
+
+<img src="./assets/python-chosen.png" alt="Python Chosen Kernel" width="200px">
 4. If you don't see your `venv` environment, you may need to restart VSCode or reload the window.
 
 Selecting the correct kernel ensures that your notebook uses the Python interpreter and packages from your virtual environment, maintaining consistency with your project setup.
