@@ -138,6 +138,7 @@ Selecting the correct kernel ensures that your notebook uses the Python interpre
 Choose `Install`
 
    <img src="./assets/python-ipykernel.png" alt="Python Install Ipykernel" width="300px">
+   
 ## Additional Notes
 
 - Jupyter notebooks are great for data analysis, visualization, and creating interactive documents.
